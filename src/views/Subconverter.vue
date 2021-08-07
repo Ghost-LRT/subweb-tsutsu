@@ -5,8 +5,8 @@
         <el-card style="margin-top:20px;max-width:800px;margin:auto;opacity:0.8;blackground-color:#0F4677;border-radius: 20px;">
           <div slot="header" style="blackground-color:#0F4677;text-align:center;font-size :25px !important;font-weight: bold !important;">
             <svg-icon icon-class="lock" style="margin-left: 20px" title="完整魔改版:v1.2"/>
-            つつの订阅转换
-            <svg-icon icon-class="telegram" style="margin-left: 10px" title="加入Telegram吹水群" @click="gotoTgChannel" />
+            L.R.T.'s 订阅转换
+            <svg-icon icon-class="telegram" style="margin-left: 10px" title="加入Telegram吹水群" @click="www.baidu.com" />
           </div>
           <el-container>
             <el-form :model="form" label-width="80px" label-position="left" style="width: 100%;">
@@ -475,7 +475,7 @@ export default {
   },
   created() {
     // document.title = "Subscription Converter";
-    document.title = "つつの订阅转换 ";
+    document.title = "L.R.T.'s 订阅转换 ";
      this.isPC = this.$getOS().isPc;
 
     // 获取 url cache
